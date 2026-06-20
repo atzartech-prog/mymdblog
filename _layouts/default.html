@@ -53,10 +53,10 @@
           <h3>Kategori</h3>
           {% for category in site.categories %}
             {% capture category_name %}{{ category | first }}{% endcapture %}
-            <p style="font-weight: bold; margin-bottom: 5px; color: #fff;">{{ category_name | capitalize }}</p>
+            <p style="font-weight: bold; margin-bottom: 5px; color: #000;">{{ category_name | capitalize }}</p>
             <ul style="list-style-type: square; margin-left: 15px; margin-bottom: 15px;">
               {% for post in category[1] %}
-                <li><a href="{{ post.url | relative_url }}" style="color: #b5e853;">{{ post.title }}</a></li>
+                <li><a href="{{ post.url | relative_url }}" style="color: #000;">{{ post.title }}</a></li>
               {% endfor %}
             </ul>
           {% endfor %}
