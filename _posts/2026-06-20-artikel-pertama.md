@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Artikel Pertama: Cara Mulai Menulis"
 date: 2026-06-20
 categories: blog tutorial
