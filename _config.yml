@@ -1,3 +1,5 @@
 title: Blog Pribadi Saya
 description: Catatan harian mengenai pemrograman dan tips teknologi
 theme: jekyll-theme-architect
+baseurl: "/mymdblog"
+url: "https://atzartech-prog.github.io"

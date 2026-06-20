@@ -11,5 +11,5 @@ Halo pembaca, ini adalah situs web statis saya yang dibuat secara langsung dari 
 Berikut adalah daftar catatan harian saya:
 
 {% for post in site.posts %}
-* [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%d %B %Y" }}
+* [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%d %B %Y" }}
 {% endfor %}
